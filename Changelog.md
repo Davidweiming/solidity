@@ -12,6 +12,7 @@ Bugfixes:
  * ABIEncoderV2: Fix internal error related to bare delegatecall.
  * ABIEncoderV2: Fix internal error related to ecrecover.
  * ABIEncoderV2: Fix internal error related to mappings as library parameters.
+ * Inline Assembly: Proper error message when ``jump`` refers to a missing jump label.
  * Yul: Properly detect name clashes with functions before their declaration.
 
 
